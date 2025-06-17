@@ -33,8 +33,13 @@ const power = function (num, power) {
   return Math.pow(num, power);
 };
 
-const factorial = function () {
+const factorial = function (num) {
+  let answer = 1;
+  for (let index = 1; index <= num; index++) {
+    answer *= index;
+  }
 
+  return answer;
 };
 
 // Do not edit below this line
