@@ -29,8 +29,8 @@ const multiply = function (multiplyArray) {
   return total;
 };
 
-const power = function () {
-
+const power = function (num, power) {
+  return Math.pow(num, power);
 };
 
 const factorial = function () {
